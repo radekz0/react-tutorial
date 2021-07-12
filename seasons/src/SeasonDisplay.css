@@ -1,0 +1,36 @@
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* We search for an element who has both season-display and winter and apply this to i element*/
+.season-display.winter i {
+    color: blue;
+}
+
+/* We search for an element who has both season-display and winter and apply this to i element*/
+.season-display.summer i {
+    color: red;
+}
+
+.winter {
+    background-color: aliceblue;
+}
+
+.summer {
+    background-color: orange;
+}
