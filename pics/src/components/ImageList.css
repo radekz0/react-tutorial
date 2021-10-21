@@ -1,8 +1,8 @@
 .image-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*minimum 250px and equally sized*/
-    grid-gap: 10px;
-    grid-auto-rows: 200px; /*How tall each picture will be*/
+    grid-gap: 0 10px;
+    grid-auto-rows: 10px; /*How tall each picture will be*/
 }
 
 .image-list img{
