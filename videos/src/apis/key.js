@@ -1,3 +1,3 @@
-const KEY = 'AIzaSyAYjMI62n5V6MNot2ifWD-ehiHkaFcWjg0';
+const KEY = '';
 
 export default KEY;
